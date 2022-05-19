@@ -1,0 +1,66 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+}
+
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section {
+padding-top: 60px;
+padding-bottom: 60px;
+background-color: #ffffff;
+}
+
+.hero {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(./images/hero.jpg);
+}
+
+.description {
+  margin-left: 200px;
+}
+
+.gallery {
+  margin-left: 180px;
+  display: flex;
+  align-items: center;
+}
+
+.gallery__item {
+    margin-right: 60px;
+}
+
+.item1 {
+  margin-right: 200px;
+}
+
+.item2 {
+  margin-right: 200px;
+}
+
+.gallery__text {
+  margin-top: 30px;
+  margin-left: 180px;
+  display: flex;
+  align-items: center;
+}
